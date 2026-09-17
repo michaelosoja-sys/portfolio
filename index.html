@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For You</title>
+
+<!--
+  ============================================================
+  HOW TO EDIT THIS SITE — read me first
+  ============================================================
+  This site is now six separate pages that link to one another
+  with "Back" / "Continue" buttons at the bottom, plus dots
+  showing which page you're on:
+
+    index.html  →  letter.html  →  story.html
+    →  gallery.html  →  countdown.html  →  closing.html
+
+  1. Keep all files (the .html pages, styles.css, and any
+     photos you add) in the SAME folder — the links between
+     pages and the shared styling depend on that.
+  2. Search each page for "EDIT:" comments — those mark text
+     you should personalize.
+  3. To add a photo, find a box that says "+ Add Photo" and
+     replace the <div class="photo-placeholder">...</div> with:
+       <img src="your-photo.jpg" alt="describe the photo">
+  4. Colors, fonts and layout all live in styles.css, so a
+     change there (e.g. the --red or --gold variables) updates
+     every page at once.
+  ============================================================
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Dancing+Script:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <main class="page-content">
+    <section class="hero">
+      <p class="hero-kicker"><!-- EDIT: small intro line -->a little something for</p>
+      <h1 class="hero-title"><!-- EDIT: partner's name -->My Awelewa,</h1>
+      <p class="hero-sub"><!-- EDIT: hero subheading -->I put a few things together for you. Flip the page when you're ready.</p>
+
+      <svg class="hero-mark" viewBox="0 0 100 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M5 20 C 20 0, 35 0, 50 20 C 65 0, 80 0, 95 20" stroke="#c9a86a" stroke-width="1.5"/>
+      </svg>
+    </section>
+  </main>
+
+  <nav class="page-nav" aria-label="Page navigation">
+    <span class="nav-spacer">Back</span>
+    <div class="page-dots" aria-hidden="true">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+    <a class="nav-link next" href="letter.html">Continue</a>
+  </nav>
+
+</body>
+</html>
